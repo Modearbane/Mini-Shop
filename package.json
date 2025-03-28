@@ -1,8 +1,8 @@
 {
-  "name": "miniShop07",
+  "name": "mini-shop",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Modearbane.github.io/miniShop07",
+  "homepage": "https://Modearbane.github.io/Mini-Shop",
   "scripts": {
     "deploy": "gh-pages -d ."
   },
