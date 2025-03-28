@@ -1,0 +1,12 @@
+{
+  "name": "miniShop07",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://Modearbane.github.io/miniShop07",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
