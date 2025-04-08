@@ -4,8 +4,10 @@
   "private": true,
   "homepage": "https://Modearbane.github.io/Mini-Shop",
   "scripts": {
-    "deploy": "gh-pages -d ."
-  },
+  "predeploy": "mkdir -p dist && cp index.html dist && cp -r css js dist", 
+  "deploy": "gh-pages -d dist"
+}
+,
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
